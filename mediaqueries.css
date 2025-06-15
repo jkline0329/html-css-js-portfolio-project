@@ -1,13 +1,21 @@
 
 @media screen and (max-width: 1400px) {
-    #profile {
-        height: 83vh;
-        margin: 6rem;
-    }
+  #profile {
+    height: auto;
+    margin: 2rem auto;
+    max-width: 90%;
+    padding: 2rem 1rem;
+}
 
     .about-containers {
         flex-wrap: wrap;
     }
+
+    .section-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
 }
 
 @media screen and (max-width: 1200px) {
@@ -48,6 +56,21 @@
     .about-containers {
         margin-top: 0;
     }
+}
+
+@media screen and (max-width: 1024px) {
+  .section-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .section__text__p1, .section__text__p2 {
+    text-align: center;
+  }
+
+  .btn-container {
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width: 600px) {
