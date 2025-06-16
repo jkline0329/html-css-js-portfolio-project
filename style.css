@@ -18,6 +18,12 @@ html {
     scroll-behavior: smooth;
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
 p {
     color: rgb(85, 85, 85);
 }
@@ -164,13 +170,16 @@ section {
 /* Profile Section */
 
 #profile {
+    position: relative;
     display: flex;
+    align-items: center;
     justify-content: center;
     gap: 5rem;
     height: 80vh;
     background-color: rgba(216, 246, 250, 0.9);
     margin: 0;
     background-size: cover;
+    z-index: 0;
 }
 
 .section__pic-container {
@@ -323,6 +332,10 @@ section {
     gap: 2rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
 }
 
 .about-details-container {
@@ -514,7 +527,7 @@ footer p {
   background-color: rgba(216, 246, 250, 0.9); 
   z-index: 0;
   animation: fadeSlide 1s ease-in;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.25);
   border-bottom: 1px solid #ccc;
 }
 

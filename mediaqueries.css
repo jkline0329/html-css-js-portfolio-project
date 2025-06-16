@@ -1,21 +1,38 @@
 
 @media screen and (max-width: 1400px) {
   #profile {
-    height: auto;
-    margin: 2rem auto;
-    max-width: 90%;
-    padding: 2rem 1rem;
+    max-height: auto;
+    margin: 0rem auto;
+    max-width: auto;
+    padding: 0rem 1rem;
 }
 
     .about-containers {
         flex-wrap: wrap;
     }
-
-    .section-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 1rem;
 }
+
+@media screen and (max-width: 1360px) {
+  .article-container {
+    justify-content: center;
+    gap: 1.5rem;
+  }
+
+  article {
+    flex: 1 1 100%;
+    max-width: 500px;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1356px) {
+  .details-container.color-container {
+    flex: 1 1 30%;  /* same as default */
+    max-width: 30%;
+  }
+
+  .about-containers {
+    gap: 1.5rem; /* maybe reduce gap if needed */
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -70,6 +87,20 @@
 
   .btn-container {
     justify-content: center;
+  }
+}
+
+@media (max-width: 1150px) and (min-width: 755px) {
+  .details-container.color-container {
+    flex: 1 1 45%;
+    max-width: 45%;
+  }
+}
+
+@media (max-width: 754px) {
+  .details-container.color-container {
+    flex: 1 1 100%;
+    max-width: 100%;
   }
 }
 
