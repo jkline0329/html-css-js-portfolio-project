@@ -12,19 +12,6 @@ body {
     
     margin: 0;
     padding: 0;
-<<<<<<< HEAD
-=======
-}
-
-.title {
-    font-size: clamp(2rem, 5vw, 4rem);
-}
-
-.section-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 2rem;
->>>>>>> 574e63ebafc697aa6ed29ff66a3284cf34412203
 }
 
 html {
@@ -192,11 +179,7 @@ section {
     background-color: rgba(216, 246, 250, 0.9);
     margin: 0;
     background-size: cover;
-<<<<<<< HEAD
     z-index: 0;
-=======
-    padding-bottom: 130px;
->>>>>>> 574e63ebafc697aa6ed29ff66a3284cf34412203
 }
 
 .section__pic-container {
@@ -540,7 +523,6 @@ footer p {
   top: 0;
   left: 0;
   width: 100%;
-<<<<<<< HEAD
   height: 170px; 
   background-color: rgba(216, 246, 250, 0.9); 
   z-index: 0;
@@ -560,15 +542,6 @@ footer p {
   }
 }
 
-=======
-  height: 130px; 
-  background-color: rgba(216, 246, 250, 0.9); 
-  z-index: 0;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  border-bottom: 1px solid #ccc;
-}
-
->>>>>>> 574e63ebafc697aa6ed29ff66a3284cf34412203
 #desktop-nav,
 #hamburger-nav {
   position: relative;
@@ -578,11 +551,7 @@ footer p {
 
 .custom-shape-divider-bottom-1749684164 {
     position: absolute;
-<<<<<<< HEAD
     bottom: 0;
-=======
-    bottom: -20px;
->>>>>>> 574e63ebafc697aa6ed29ff66a3284cf34412203
     left: 0;
     width: 100%;
     overflow: hidden;
